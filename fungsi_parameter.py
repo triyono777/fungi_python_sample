@@ -1,6 +1,7 @@
-def selamat(nama):
-    print('selamat', nama, '......')
+def selamat(nama, waktu):
+    print('selamat', waktu, nama, '......')
 
 
-selamat('budi')
-selamat('andi')
+selamat('budi', 'pagi')
+selamat('malam', 'andi')  # positional parameter
+selamat(waktu='malam', nama='andi')  # named parameter
